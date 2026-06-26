@@ -1,0 +1,29 @@
+# Large model files
+*.pt
+*.pth
+*.pkl
+*.h5
+
+# Dataset files (too large)
+*.csv
+*.sdf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads and job outputs
+uploads/
+jobs/
+generated/source/
